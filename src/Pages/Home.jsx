@@ -1,9 +1,10 @@
-import { SSBData } from "../Data/data";
+import BarChart from "../Data/BarChart";
+
 
 export default function Home() {
     return (
         <div>
-            <SSBData />
+            <BarChart />
         </div>
     );
 }
